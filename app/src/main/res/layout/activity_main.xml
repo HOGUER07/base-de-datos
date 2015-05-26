@@ -1,0 +1,79 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numero_pelicula"
+            android:inputType="text"
+            android:hint="numero de la pelicula"/>
+
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:inputType="text"
+            android:hint="nombre de la pelicula"/>
+
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/categoria"
+            android:inputType="text"
+            android:hint="categoria"/>
+
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/duracion"
+            android:inputType="text"
+            android:hint="Duracion"/>
+
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idioma"
+            android:inputType="text"
+            android:hint="idioma"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Agregar"
+             android:id="@+id/agregar"
+            android:onClick="agregar" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Eliminar"
+            android:id="@+id/eliminar"
+            android:onClick="eliminar" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="70dp"
+           android:text="buscar"
+           android:id="@+id/buscar"
+           android:onClick="buscar" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="limpiar"
+            android:id="@+id/limpiar"
+            android:onClick="limpiar"
+          />
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
