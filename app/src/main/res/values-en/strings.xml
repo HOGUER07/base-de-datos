@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">databases</string>
+    <string name="action_settings">Settings</string>
+    <string name="numero_pelicula">numers of films:</string>
+    <string name="nombre">Name:</string>
+    <string name="categoria">category:</string>
+    <string name="duracion">Duration:</string>
+    <string name="idioma">lengueje:</string>
+
+    <string name="agregar">Add:</string>
+    <string name="eliminar">delete:</string>
+    <string name="buscar">search:</string>
+    <string name="limpiar">clean:</string>
+</resources>
